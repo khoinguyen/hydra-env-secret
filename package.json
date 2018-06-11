@@ -1,0 +1,22 @@
+{
+  "name": "hydra-env-secret",
+  "version": "1.0.3",
+  "description": "Inject ENV value to config",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khoinguyen/hydra-env-secret.git"
+  },
+  "author": "Khoi Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khoinguyen/hydra-env-secret/issues"
+  },
+  "homepage": "https://github.com/khoinguyen/hydra-env-secret#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
