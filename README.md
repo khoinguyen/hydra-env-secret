@@ -14,7 +14,7 @@ npm install -S hydra-env-secret
 ## Configuration
 
 `config/k8s-config.json`
-```json
+```json5
 {
   "env_refs": ["hydra.redis.password"], // (1)
   "environment": "development",
@@ -92,7 +92,7 @@ docker run -e "REDIS_PASSWORD=someVeryLongPasswordToSecureYourRedis" khoinqq/hyd
 ```
 
 ## After transform
-```json
+```json5
 {
   "env_refs": ["hydra.redis.password"],
   "environment": "development",
