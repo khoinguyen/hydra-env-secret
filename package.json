@@ -1,6 +1,6 @@
 {
   "name": "hydra-env-secret",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Inject ENV value to config",
   "main": "lib/index.js",
   "scripts": {
